@@ -34,7 +34,7 @@ Place this directory at `packages/ml/jax/` in your jetson-containers checkout, t
 PYTHONPATH=. PYTHON_VERSION=3.12 python3 -m jetson_containers.build jax:0.6.2-builder
 ```
 
-The build takes approximately **60–90 minutes** on the Orin Nano Super (4 parallel Bazel jobs).
+The build takes approximately **8 hours** on the Orin Nano Super (4 parallel Bazel jobs).
 
 ### Running the container
 
